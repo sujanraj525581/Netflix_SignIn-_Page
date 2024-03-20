@@ -1,0 +1,279 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: grey;
+}
+
+#cmain {
+  background: url(./assets/Netflix-Background.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* background-size: 1400px; */
+}
+
+/* cf1 */
+
+#idbt1 {
+  background-color: red;
+  border-radius: 6px;
+  padding: 5px;
+  border-color: red;
+  color: white;
+  margin-left: 20px;
+  height: 38px;
+  width: 85px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#onec1 {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 20px;
+}
+
+#nlogo {
+  margin-left: 100px;
+}
+
+#ddsi {
+  display: flex;
+  margin-right: 100px;
+}
+
+/*  onec2 */
+#onec2 {
+  position: absolute;
+  top: 300px;
+  color: white;
+  text-align: center;
+}
+
+#onec2 h1 {
+  font-family: "DM Sans", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: bolder;
+  /* font-style: normal; */
+  font-size: 3.5vw;
+}
+
+#text1 {
+  background: none;
+  border: 1px solid white;
+}
+
+#onec2btn {
+  background-color: red;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 2px;
+  padding: px;
+}
+
+/* cmain2 */
+#cmain2{
+    background-color: black;
+    padding: 100px;
+    position: relative;
+    top: -20px;
+}
+
+/* twoc1 */
+#twoc1{ 
+    background-color: black;
+}
+
+#twoc1 .row h1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 3.5vw;
+  color: white;
+}
+
+
+/* cmain3 */
+#cmain3{
+    background-color: black;
+    padding: 100px;
+    position: relative;
+    top: -37px;
+}
+
+/* threec1 */
+#threec1{
+    background-color: black;
+}
+
+#threec1 .row h1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 3.5vw;
+  color: white;
+}
+
+/* cmain4 */
+#cmain4{
+  background-color: black;
+  padding: 100px;
+  position: relative;
+  top: -54px;
+}
+
+/* threec1 */
+#fourc1{
+  background-color: black;
+}
+
+#fourc1 .row h1 {
+font-family: "DM Sans", sans-serif;
+font: weight 1000px;;
+font-size: 3.5vw;
+color: white;
+}
+
+/* cmain5 */
+#cmain5{
+  background-color: black;
+  padding: 100px;
+  position: relative;
+  top: -74px;
+}
+
+/* fivec1 */
+#fivec1{
+  background-color: black;
+}
+
+#fivec1 .row h1 {
+font-family: "DM Sans", sans-serif;
+font: weight 1000px;;
+font-size: 3.5vw;
+color: white;
+}
+
+/* cmain6 */
+#cmain6{
+  background-color: black;
+  padding: 60px;
+  position: relative;
+  top: -94px;
+}
+
+#sixc1 .child1 h1 {
+  font-family: "DM Sans", sans-serif;
+  /* font: weight 1000px; */
+  font-size: 3.7vw;
+  color: white;
+  width: 50vw;
+  }
+
+.child1{
+  display: flex;
+  justify-content: center;
+}
+
+#headingOne button,#headingTwo button,#headingThree button,#headingFour button,#headingFive button,#headingSix button{
+  background-color: rgb(80, 79, 79);
+  color: white;
+}
+
+.child2{
+  display: flex;
+  justify-content: center;
+}
+
+.accordion-body{
+  background-color: rgb(80, 79, 79);
+  color: white;
+}
+
+#accordion-item {
+  background-color: #000000;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.accordion{
+  width: 70vw;
+}
+
+.child3{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#text2 {
+  background: rgb(19, 19, 19);
+  border: 1px solid white;
+}
+
+#onec6btn {
+  background-color: red;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 2px;
+  padding: px;
+}
+
+.child4{
+  height: 8vh;
+}
+
+/* Footer */
+#cmainf{
+   background-color: black;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin-top: -120px;
+    position: relative;
+    top: -113px;
+    position: sticky;
+}
+
+.fchild1 {
+  color:  rgb(154, 154, 154);
+  position: relative;
+  /* left: 150px; */
+}
+
+.fchild1 a{
+  color: white;
+}
+
+.fchild2{
+  position: relative;
+  top: 15px;
+  left: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fchild2sub1 a,.fchild2sub2 a,.fchild2sub3 a,.fchild2sub4 a{
+  display: flex;
+  flex-direction: column;
+  height: 5vh;
+  font-size:medium;
+  color: rgb(154, 154, 154);
+}
+
+.fchild3{
+  position: relative;
+  top: 20px;
+  /* margin-left: 87px; */
+  padding-left: 87px;
+}
+
+.fchild4{
+  position: relative;
+  top: 20px;
+  /* margin-left: 87px; */
+  padding-left: 87px;
+  color: rgb(154, 154, 154);
+}
